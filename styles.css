@@ -82,8 +82,15 @@ i.location:hover {
   border: 2px solid #007bff;
 }
 
-.search {
-  margin-bottom: 10px;
+.footer {
+  padding-bottom: 5px;
+}
+
+.footer p {
+  display: inline;
+  color: rgba(250, 250, 250, 0.5);
+  font-size: 10px;
+  font-weight: 250;
 }
 
 .main-icon {
@@ -92,17 +99,7 @@ i.location:hover {
   margin: 20px;
 }
 
-.temp {
-  color: #e2e2e2;
-  display: block;
-  font-size: 40px;
-  font-weight: 350;
-  margin: 0 auto;
-
-  text-align: center;
-}
 .next-week {
-  margin-bottom: 20px;
   margin-top: 25px;
 }
 
@@ -124,8 +121,30 @@ i.location:hover {
   padding-left: 0px;
 }
 
+.open-source {
+  color: rgba(250, 250, 250, 0.5);
+  display: inline;
+  font-size: 10px;
+  font-weight: 250;
+  text-decoration: underline;
+}
+
+.search {
+  margin-bottom: 10px;
+}
+
 .search-bar {
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+.temp {
+  color: #e2e2e2;
+  display: block;
+  font-size: 40px;
+  font-weight: 350;
+  margin: 0 auto;
+
+  text-align: center;
 }
 
 .units {
